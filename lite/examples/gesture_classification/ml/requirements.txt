@@ -1,3 +1,10 @@
-tensorflow>=1.14.0
-tensorflowjs==0.6.4
-keras==2.2.4
+tensorflow==1.14.0
+tensorflowjs==0.8.6
+keras==2.2.3
+numpy==1.16.3
+six==1.11.0
+keras-applications==1.0.6
+keras-preprocessing==1.0.5
+# Note: The following errors do show up with this set of requirements, but models converts and work
+# ERROR: tensorflowjs 0.8.6 has requirement keras==2.2.2, but you'll have keras 2.2.3 which is incompatible.
+# ERROR: tensorflowjs 0.8.6 has requirement tensorflow==1.13.1, but you'll have tensorflow 1.14.0 which is incompatible.
